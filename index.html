@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>      
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+         <!-- Animaciones CSS CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Katia Luna | Portafolio Web</title>
+</head>
+
+<body>
+
+    <!--Barra de navegación-->
+
+    <header>
+        <nav>
+            <h1>Katia Luna</h1>
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="burguer-menu" id="burguer-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+    </header>
+    
+    <!--Seccion Hero-->
+
+    <section class="hero" id="About">
+
+        <img src="/images/Fotito.jpg" alt="myself" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About me</h2>
+            <p>Estudiante de Arquitectura e Ing. en gestión de proyectos. Aficionada de tener mil hobbies.  Interesada en aprender y saber de todo un poco. Amante de los gatos.</p>
+        </div>
+
+    </section>
+
+    <!--About me-->
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Estudiante de Arquitectura desde el 2021, con intereses inclinados hacia la parte de costos y presupuestos de una obra, así como habilidades en el modelado 3D y renderizado.</p>
+        <p>Estudiante de Ing. en Gestión de proyectos desde 2022, interesada en el desarrollo y planeación de proyectos, así como en el trabajo en conjunto para llegar a una meta en común.</p>
+        <p>Nacida y criada en Veracruz, creciendo personal y profesionalmente en Mérida, Yucatán. Aficionada de aprender todos los hobbies que pueda y aplicarlos de alguna forma en mi vida personal y profesional. Fanática de los gatos y sus travesuras.</p>
+    </section>
+
+    <!--Skills-->
+
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My top skills</h2>
+        <div class="skills-wrapper">
+
+            <div class="first-set animate__animated animate_pulse">
+                <img src="/images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="">
+                <img src="/images/icons8-css3.svg" alt="CSS3" loading="lazy" class="">
+                <img src="/images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="">
+            </div>
+
+            <div class="second-set animate__animated animate_pulse">
+                <img src="/images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="">
+                <img src="/images/icons8-github-50.svg" alt="GitHub" loading="lazy" class="">
+                <img src="/images/icons8-react-native.svg" alt="React" loading="lazy" class="">
+            </div>
+
+        </div>
+    </section>
+
+    <!--Projects-->
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my recent projects</h2>
+        <div class="projects-container">
+
+            <div class="project-container project-card">
+                <img src="/images/projectpreview.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest clone</h3>
+                <p class="project-details">Pinterest board full with my cats</p>
+                <a href="#" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="/images/comingsoon.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 2</h3>
+                <p class="project-details">Work in progress...</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="/images/comingsoon.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">Work in progress...</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Redes sociales-->
+
+    <div class="socials">
+
+        <a href="https://www.linkedin.com/in/katialuna39/" target="_blank"><img src="icons/LinkedIn.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+
+        <a href="https://github.com/Katt39" target="_blank"><img src="icons/Github.png" alt="Github" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.instagram.com/katt3939/" target="_blank"><img src="icons/Instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+
+    </div>
+
+    <!--Scroll up-->
+
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/arrowup.gif" class="socicon up-arrow" alt="scroll up">
+    </i>
+
+    <footer>
+        <p>Built with {❤️} by <a href="https://www.linkedin.com/in/katialuna39/" target="_blank">Katia Luna</a>💕</p>
+    </footer>
+ 
+   <!--JavaScript link-->
+
+    <script src="app.js"></Script>
+
+            <!-- Ion icons scripts -->
+            <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
